@@ -1,10 +1,17 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "z9/yl5KuXck=",
   "success": true,
   "projectFilePath": "/Users/irinae/Downloads/ereminair/src/Lab3/Lab3.csproj",
   "expectedPackageFiles": [
     "/Users/irinae/.nuget/packages/crayon/2.0.69/crayon.2.0.69.nupkg.sha512",
+=======
+  "dgSpecHash": "JCTY59uUWnE=",
+  "success": true,
+  "projectFilePath": "/Users/irinae/Downloads/ereminair/src/Lab2/Lab2.csproj",
+  "expectedPackageFiles": [
+>>>>>>> c6b0d8992de1967eb546b96fb6d01a41cbc0f59e
     "/Users/irinae/.nuget/packages/itmo.dev.editorconfig/1.0.5/itmo.dev.editorconfig.1.0.5.nupkg.sha512",
     "/Users/irinae/.nuget/packages/sourcekit/1.1.35/sourcekit.1.1.35.nupkg.sha512",
     "/Users/irinae/.nuget/packages/sourcekit.analyzers.collections/1.0.35/sourcekit.analyzers.collections.1.0.35.nupkg.sha512",

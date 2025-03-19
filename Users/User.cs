@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using Itmo.ObjectOrientedProgramming.Lab3.Messages;
 using Itmo.ObjectOrientedProgramming.Lab3.ResultTypes;
 
@@ -48,4 +49,23 @@ public class User : IUser
     {
         return _messages[message] is MessageRead;
     }
+=======
+﻿using Itmo.ObjectOrientedProgramming.Lab2.Repositories;
+
+namespace Itmo.ObjectOrientedProgramming.Lab2.Users;
+
+public class User : IEntity
+{
+    public Guid UserId { get; }
+
+    public string UserName { get; }
+
+    public User(string userName)
+    {
+        UserId = Guid.NewGuid();
+        UserName = userName;
+    }
+
+    public Guid Id => UserId;
+>>>>>>> c6b0d8992de1967eb546b96fb6d01a41cbc0f59e
 }
